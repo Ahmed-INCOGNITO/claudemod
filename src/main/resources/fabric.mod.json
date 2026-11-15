@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "pvpmaster",
+  "version": "${version}",
+  "name": "PvP Master",
+  "description": "PvP training against AI bots.",
+  "authors": ["You"],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["com.pvpmaster.PvpMaster"],
+    "client": ["com.pvpmaster.client.PvpMasterClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.18.0",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
